@@ -1,0 +1,39 @@
+.topbar{
+    background-color:#FF3636;
+    z-index: 1030;
+    padding: 10px;
+    top:0;
+    position: fixed;
+    width: 100%;
+    visibility: hidden;
+}
+@media screen and (max-width: 991px){
+    .topbar {
+    visibility:initial
+    
+}
+}
+.btn-topbar{
+   color:#fff;
+}
+.btn-topbar:hover{
+    color:#fff;
+}
+#demo{
+  font-size: 18px;
+  color: #fff;
+}
+#btnposi{
+    text-align: right;
+}
+.col-margin{
+    
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.hr-color{
+    color: #fff;
+    background-color: #fff ;
+}
+
+

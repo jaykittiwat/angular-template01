@@ -1,0 +1,70 @@
+@import "~bootstrap/dist/css/bootstrap.css";
+/* You can add global styles to this file, and also import other style files */
+@import '~@circlon/angular-tree-component/css/angular-tree-component.css';
+/* ทั้งหมด*/
+.tree-node{
+  margin-top: 8px;
+  padding: 5px;
+  font-size: 18px;
+}
+
+.toggle-children-wrapper{
+  
+  margin-left: 10px;
+  margin-right: 1px;
+}
+
+.toggle-children{
+  background-image: 
+  url(https://www.flaticon.com/svg/static/icons/svg/120/120893.svg);
+  width: 15px;
+  height: 15px;
+  transition: all 0.2s ;
+  margin-top: 7px;
+}
+
+input[type=checkbox], input[type=radio] {
+  width: 20px;
+  box-sizing: border-box;
+  padding: 1px;
+  height: 20px;
+  margin-top:5px ;
+}
+
+div.tree-node-level-2{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0,0,0,.125);
+  border-radius: .25rem;
+
+  margin-left: 10px;
+
+}
+
+
+ .node-content-wrapper-active,.node-content-wrapper-focused{
+   background-color: rgba(255, 255, 255, 0);
+ }
+ .node-content-wrapper-active, .node-content-wrapper.node-content-wrapper-active:hover, .node-content-wrapper-active.node-content-wrapper-focused {
+  background:none;
+}
+.node-content-wrapper-focused, .node-content-wrapper:hover {
+  box-shadow:none;
+}
+.node-content-wrapper-focused {
+  background:none;
+}
+.node-content-wrapper:hover {
+   background:none; 
+}
+
+
+tree-viewport{
+    height: auto;
+  }
+
+

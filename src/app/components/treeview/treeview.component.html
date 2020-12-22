@@ -1,0 +1,29 @@
+
+ 
+<tree-root
+#tree1
+(updateData)="onUpdateData1()"
+  class="tree marginset "
+  id="SubGroup"
+  (select)="onSelect($event)"
+  (deselect)="onDeselect($event)"
+  [nodes]="this.node_parentOne "
+  [options]="options1"
+  >
+</tree-root>
+
+<form></form>
+<tree-root
+#tree2
+(updateData)="onUpdateData2()"
+  class="tree marginset "
+  id="SubGroup"
+  (select)="onSelect($event)"
+  (deselect)="onDeselect($event)"
+  [nodes]="this.node_parentTwo "
+  [options]="options2"
+  >
+</tree-root>
+<div class="d-flex justify-content-center"><button  (click)="onShow()"  class="btn btn-warning m-3">ตกลง</button></div>
+
+

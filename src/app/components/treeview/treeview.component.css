@@ -1,0 +1,41 @@
+.tree {
+    width: 300px;
+  }
+  
+  .node-content-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+  }
+  
+  .node-content-wrapper {
+    flex-grow: 1;
+    position: relative;
+  }
+  
+  .pull-right {
+    position: absolute;
+    right: 10px;
+  }
+  
+  .tree-node-collapsed{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+
+  }
+  .btn{
+    width: 150px;
+    font-size: 18px;
+    text-align: center;
+  }
+
+  
+
+ 
+   
